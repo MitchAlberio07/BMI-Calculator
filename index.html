@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Body Mass Index Calculator</h1>
+        <div class="input">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="input">
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age">
+        </div>
+        <div class="input">
+            <label for="gender">Gender:</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <form id="bmiForm">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" step="0.01" required>
+            <br>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" step="0.01" required>
+            <br>
+            <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+            <button id="reset">Reset</button> 
+    </form>
+       
+        <div id="result"></div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>

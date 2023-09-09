@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dfbaea;
+}
+
+.container {
+    display:block;
+    background-color: #F8F0E5;
+    background-image: url(https://images-eds-ssl.xboxlive.com/image?url=Q_rwcVSTCIytJ0KOzcjWTYtI_MIrVq4WfN7M.qN7gV3ayNiQeJK6Uxg366DH3bnRudBkxaAdUqFPax5qToRNP5SQT0kXIb0n13Kw8SjgDC34IsVPtS_rpSXHyv2Eihy6tpaMNlNxfqXoH34D76bCiw--&format=source);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    justify-content:center;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="number"],
+[type="text"],
+#gender {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #362b40;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:10px;
+}
+
+#result {
+    color:#451952;
+    margin-top: 20px;
+    font-weight: bold;
+}
